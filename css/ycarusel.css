@@ -1,0 +1,10 @@
+.y_single_carousels_container,.ui-coverflow-wrapper  {height:500px; margin-top: 100px;}
+.y_single_carousels_container img {height:320px !important; width: 320px ;}
+
+/*smartphone*/
+@media only screen and (max-width:620px)and (min-width: 200px)
+{
+.y_single_carousels_container,.ui-coverflow-wrapper  {height:300px !important;}
+.y_single_carousels_container img {height:200px !important; width: 200px !important;}
+
+}
